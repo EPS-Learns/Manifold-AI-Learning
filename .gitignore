@@ -1,0 +1,28 @@
+# ---- Python cache / compiled files ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- Virtual environments (anywhere in the repo) ----
+.venv/
+venv/
+env/
+ENV/
+aai/          # only if this folder is actually just a venv
+
+# ---- Env files (secrets, API keys) ----
+.env
+.env.*
+*.env
+
+# ---- IDE / editor files ----
+.vscode/
+.idea/
+
+# ---- OS junk ----
+.DS_Store
+Thumbs.db
+
+# ---- Installers / binaries ----
+*.exe
+*.msi
